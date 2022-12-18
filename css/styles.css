@@ -1,0 +1,180 @@
+/* font color  */
+/* колір заголовків #2E2F42 */
+/* основний колір #434455 */
+/* колір лого, кнопок і ховер ефектів #4D5AE5  */
+/* колір тексту в футорі #E7E9FC , білий #FFFFFF  */
+/* колір лого в футорі #F4F4FD */
+
+/* background color */
+/* фон головний #2E2F42 */
+/* фон команда #F4F4FD */
+
+/*    */
+
+:root {
+  --accent-color: #4d5ae5;
+  --primary-text-color: #434455;
+  --primary-title-color:#2e2f42;
+  --color-white: #ffffff;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  background-color: var(--color-white);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hidden-titles{
+  color: grey;
+}
+
+/* ================== Компоненти ================== */
+.sub-title {
+  font-size: 20px;
+  color: var(--primary-title-color);
+  line-height: 1.5;
+  font-weight: 600;
+}
+.text {
+  line-height: 1.5;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+/* ================== /Компоненти ================== */
+
+/* ================== Шапка ================== */
+/* Логотип */
+.logo {
+  color: var(--accent-color);
+  font-family:var(--primary-font) ;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-header {
+  color: var(--primary-title-color);
+}
+.logo-footer {
+  color: #f4f4fd;
+}
+/* Навігація */
+.menu-link {
+  color: var(--primary-title-color);
+  font-weight: 600;
+  line-height: 1.5;
+}
+/* .corrent{
+  color: var(--accent-color);
+} */
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--primary-text-color);
+}
+.menu-link:active {
+  color: var(--accent-color);
+}
+/* Контакти */
+.contacts-header-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 1.5;
+}
+.contacts-header-link:hover,
+.contacts-header-link:focus {
+  color: var(--accent-color);
+}
+/* ================== /Шапка ================== */
+
+
+/* ================== Контент ================== */
+.main-team {
+  background-color: #f4f4fd;
+}
+/* Hero Контент */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: var(--color-white);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.07; 
+
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  /* для тексту */
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.hero-btn:active {
+  background-color: #404bbf;
+}
+/* ================== /Контент ================== */
+
+/* ================== Футер ================== */
+.footer {
+  background-color: var(--primary-title-color);
+}
+.footer {
+  text-decoration: none;
+}
+.text-footer {
+  line-height: 1.5; 
+  color: #e7e9fc;
+}
+/* ================== /Футер ================== */
+
+/* ================== Портфоліо ================== */
+/* Кнопки фільтра */
+.filter-btns {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.filter-btns:hover,
+.filter-btns:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+/* ================== Портфоліо ================== */
+
+
