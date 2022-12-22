@@ -344,7 +344,7 @@ body {
 /* ================== Портфоліо ================== */
 
 .portfolio {
-  background-color: var(--primary-background-color-light);
+  /* background-color: var(--primary-background-color-light); */
   padding-top: 96px;
   padding-bottom: 120px;
 }
