@@ -37,30 +37,29 @@ h3,
 h4,
 h5,
 h6,
-p
- {
- margin-top: 0;
- margin-bottom: 0;
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-ul,ol{
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
-img{
+img {
   display: block;
 }
 
-address{
+address {
   font-style: normal;
 }
 
-button{
+button {
   cursor: pointer;
 }
-
 
 body {
   background-color: var(--primary-background-color-light);
@@ -94,7 +93,6 @@ body {
   /* outline:var(--outline-pri) ; */
 }
 .sub-title {
- 
   color: var(--primary-title-color);
   font-size: 20px;
   line-height: 1.5;
@@ -110,8 +108,8 @@ body {
   text-transform: capitalize;
 }
 
-.section{
-   padding-top: 120px;
+.section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 /* ================== /Компоненти ================== */
@@ -119,12 +117,9 @@ body {
 /* ================== Шапка ================== */
 .header {
   border-bottom: 1px solid var(--primary-text-color-light);
-   padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
-
-
-
 
 /* Логотип */
 
@@ -192,7 +187,6 @@ body {
 
 .contacts-header {
   display: flex;
- 
 }
 
 .contacts-header-item:not(:last-child) {
@@ -205,7 +199,7 @@ body {
   padding-bottom: 24px; */
 
   color: var(--primary-text-color-dark);
-  
+
   line-height: 1.5;
 }
 .contacts-header-link:hover,
@@ -220,11 +214,10 @@ body {
   background-color: var(--secondary-background-color-light);
 }
 .company-benefits {
-padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .company-products {
-  
 }
 
 /* Hero Контент */
@@ -254,7 +247,7 @@ padding-bottom: 0;
   background-color: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  
+
   padding: 16px 32px;
   min-width: 170px;
 
@@ -267,13 +260,10 @@ padding-bottom: 0;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-   background: #404BBF;
+  background: #404bbf;
 
-border-radius: 4px;
+  border-radius: 4px;
 }
-
-
-
 
 .benefits-description {
   margin-top: 8px;
@@ -287,7 +277,7 @@ border-radius: 4px;
 .company-benefits-item:not(:last-child) {
   margin-right: 24px;
 }
-.company-products .section-title{
+.company-products .section-title {
   margin-bottom: 72px;
 }
 .company-products-list {
@@ -297,7 +287,7 @@ border-radius: 4px;
   margin-right: 24px;
 }
 
-.main-team .section-title{
+.main-team .section-title {
   margin-bottom: 72px;
 }
 .main-team-img {
@@ -318,16 +308,13 @@ border-radius: 4px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.main-team-item .sub-title{
+.main-team-item .sub-title {
   margin-bottom: 8px;
-
-
 }
 
 .main-team-item {
-  padding-bottom:  32px;
+  padding-bottom: 32px;
 }
-
 
 /* ================== /Контент ================== */
 
@@ -343,12 +330,9 @@ border-radius: 4px;
   margin-top: 14px;
   line-height: 1.5;
   color: var(--primary-text-color-light);
-
-
 }
 
-
-.footer .logo{
+.footer .logo {
   margin-right: 0;
 }
 /* ================== /Футер ================== */
@@ -374,7 +358,7 @@ border-radius: 4px;
   padding-bottom: 12px;
 
   border-radius: 4px;
- 
+
   background-color: var(--secondary-background-color-light);
 
   font-family: var(--primary-font-title);
@@ -388,7 +372,7 @@ border-radius: 4px;
 .filter-btns:focus {
   color: #ffffff;
   background-color: var(--primary-accent-color);
-  
+
   border-radius: 4px;
 }
 
@@ -401,33 +385,29 @@ border-radius: 4px;
   margin-bottom: 32px;
 }
 .portfolio-list {
- 
   display: flex;
   flex-wrap: wrap;
 }
 .portfolio-item {
- 
-width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
   border-bottom: 0.5px solid #f4f4fd;
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
-.portfolio-item .sub-title{
+.portfolio-item .sub-title {
   margin-bottom: 8px;
   margin-left: 16px;
 }
 
-.portfolio-item .text{
-
+.portfolio-item .text {
   margin-left: 16px;
 }
 
-.portfolio-item{
+.portfolio-item {
   padding-bottom: 32px;
 }
-
 
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
