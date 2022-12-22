@@ -70,7 +70,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   min-width: 1158px;
-  
+}
 
 .list {
   list-style: none;
@@ -109,12 +109,18 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
 }
+
+.section{
+   padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ================== /Компоненти ================== */
 
 /* ================== Шапка ================== */
 .header {
-  background-color: var(--primary-background-color-light);
- box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid var(--primary-text-color-light);
+   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 
@@ -186,8 +192,7 @@ body {
 
 .contacts-header {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ 
 }
 
 .contacts-header-item:not(:last-child) {
@@ -212,20 +217,14 @@ body {
 /* ================== Контент ================== */
 
 .main-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: var(--secondary-background-color-light);
 }
 .company-benefits {
-  padding-top: 120px;
-  padding-bottom: 60px;
-  background-color: var(--primary-background-color-light);
+padding-bottom: 0;
 }
 
 .company-products {
-  padding-top: 60px;
-  padding-bottom: 120px;
-  background-color: var(--primary-background-color-light);
+  
 }
 
 /* Hero Контент */
@@ -251,6 +250,7 @@ body {
 }
 
 .hero-btn {
+  border: none;
   background-color: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -267,17 +267,16 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+   background: #404BBF;
+
+border-radius: 4px;
 }
-.hero-btn:active {
-  background-color: #404bbf;
-}
+
 
 
 
 .benefits-description {
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .company-benefits-list {
   display: flex;
@@ -325,8 +324,8 @@ body {
 
 }
 
-.main-team-item .text{
-  margin-bottom: 32px;
+.main-team-item {
+  padding-bottom:  32px;
 }
 
 
@@ -344,15 +343,20 @@ body {
   margin-top: 14px;
   line-height: 1.5;
   color: var(--primary-text-color-light);
+
+
+}
+
+
+.footer .logo{
+  margin-right: 0;
 }
 /* ================== /Футер ================== */
 
 /* ================== Портфоліо ================== */
 
 .portfolio {
-  /* background-color: var(--primary-background-color-light); */
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 /* Кнопки фільтра */
@@ -363,11 +367,12 @@ body {
 }
 
 .filter-btns {
+  border: none;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  border: 1px solid var(--primary-text-color-light);
+
   border-radius: 4px;
  
   background-color: var(--secondary-background-color-light);
@@ -383,8 +388,7 @@ body {
 .filter-btns:focus {
   color: #ffffff;
   background-color: var(--primary-accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  
   border-radius: 4px;
 }
 
@@ -405,9 +409,9 @@ body {
  
 width: calc((100% - 48px) / 3);
   margin-right: 24px;
-  margin-bottom: 24px;
-  border: 0.5px solid #f4f4fd;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  margin-bottom: 48px;
+  border-bottom: 0.5px solid #f4f4fd;
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .portfolio-item .sub-title{
@@ -416,9 +420,14 @@ width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item .text{
-  margin-bottom: 32px;
+
   margin-left: 16px;
 }
+
+.portfolio-item{
+  padding-bottom: 32px;
+}
+
 
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
