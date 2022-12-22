@@ -184,8 +184,8 @@ body {
   display: flex;
 }
 
-.contacts-header-item + .contacts-header-item {
-  margin-left: 40px;
+.contacts-header-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .contacts-header-link {
