@@ -69,7 +69,8 @@ body {
   font-family: var(--primary-font-text);
   font-size: 16px;
   letter-spacing: 0.02em;
-}
+  min-width: 1158px;
+  
 
 .list {
   list-style: none;
