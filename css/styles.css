@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6,
-p,
+p
  {
  margin-top: 0;
  margin-bottom: 0;
@@ -210,12 +210,12 @@ body {
 }
 .company-benefits {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
   background-color: var(--primary-background-color-light);
 }
 
 .company-products {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
   background-color: var(--primary-background-color-light);
 }
