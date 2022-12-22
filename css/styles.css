@@ -122,6 +122,9 @@ body {
 /* Логотип */
 
 .logo {
+  /* display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px; */
   margin-right: 77px;
   color: var(--primary-accent-color);
   font-family: var(--secondary-font-title);
@@ -156,9 +159,9 @@ body {
 }
 
 .menu-link {
-  display: inline-block;
+  /* display: inline-block;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 24px; */
 
   color: var(--primary-title-color-dark);
   font-weight: 600;
@@ -182,6 +185,8 @@ body {
 
 .contacts-header {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts-header-item:not(:last-child) {
@@ -189,12 +194,12 @@ body {
 }
 
 .contacts-header-link {
-  display: inline-block;
+  /* display: inline-block;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 24px; */
 
   color: var(--primary-text-color-dark);
-  font-style: normal;
+  
   line-height: 1.5;
 }
 .contacts-header-link:hover,
