@@ -38,10 +38,29 @@ h4,
 h5,
 h6,
 p,
-ul {
-  margin: 0;
-  padding: 0;
+ {
+ margin-top: 0;
+ margin-bottom: 0;
 }
+
+ul,ol{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img{
+  display: block;
+}
+
+address{
+  font-style: normal;
+}
+
+button{
+  cursor: pointer;
+}
+
 
 body {
   background-color: var(--primary-background-color-light);
@@ -74,22 +93,17 @@ body {
   /* outline:var(--outline-pri) ; */
 }
 .sub-title {
-  margin-bottom: 8px;
-  margin-left: 16px;
+ 
   color: var(--primary-title-color);
   font-size: 20px;
   line-height: 1.5;
   font-weight: 600;
 }
 .text {
-  margin-left: 16px;
-  margin-bottom: 32px;
-
   line-height: 1.5;
 }
 .section-title {
   text-align: center;
-  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -140,7 +154,7 @@ body {
 }
 
 .menu-link {
-  display: block;
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -173,7 +187,7 @@ body {
 }
 
 .contacts-header-link {
-  display: block;
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -196,6 +210,7 @@ body {
 }
 .company-benefits {
   padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--primary-background-color-light);
 }
 
@@ -231,7 +246,7 @@ body {
   background-color: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  cursor: pointer;
+  
   padding: 16px 32px;
   min-width: 170px;
 
@@ -251,6 +266,8 @@ body {
   background-color: #404bbf;
 }
 
+
+
 .benefits-description {
   padding-top: 8px;
 }
@@ -258,12 +275,14 @@ body {
   display: flex;
 }
 .company-benefits-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .company-benefits-item:not(:last-child) {
   margin-right: 24px;
 }
-
+.company-products .section-title{
+  margin-bottom: 72px;
+}
 .company-products-list {
   display: flex;
 }
@@ -271,6 +290,9 @@ body {
   margin-right: 24px;
 }
 
+.main-team .section-title{
+  margin-bottom: 72px;
+}
 .main-team-img {
   margin-bottom: 32px;
 }
@@ -288,6 +310,17 @@ body {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
+.main-team-item .sub-title{
+  margin-bottom: 8px;
+
+
+}
+
+.main-team-item .text{
+  margin-bottom: 32px;
+}
+
 
 /* ================== /Контент ================== */
 
@@ -310,13 +343,14 @@ body {
 
 .portfolio {
   background-color: var(--primary-background-color-light);
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 /* Кнопки фільтра */
 .btn-filter-list {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 
@@ -327,7 +361,7 @@ body {
   padding-bottom: 12px;
   border: 1px solid var(--primary-text-color-light);
   border-radius: 4px;
-  cursor: pointer;
+ 
   background-color: var(--secondary-background-color-light);
 
   font-family: var(--primary-font-title);
@@ -355,16 +389,27 @@ body {
   margin-bottom: 32px;
 }
 .portfolio-list {
-  margin-bottom: 120px;
+ 
   display: flex;
   flex-wrap: wrap;
 }
 .portfolio-item {
-  width: 360px;
+ 
+width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 24px;
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item .sub-title{
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+.portfolio-item .text{
+  margin-bottom: 32px;
+  margin-left: 16px;
 }
 
 .portfolio-item:nth-last-child(-n + 3) {
